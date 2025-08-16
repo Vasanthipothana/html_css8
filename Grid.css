@@ -1,0 +1,204 @@
+.imagecontainer{
+    padding: 20px;
+    margin:0 auto;
+    max-width: 1200px;
+    box-sizing: border-box;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+        
+            'a b c'
+            'a d e'
+            'a f g'
+            'h i j'
+            'k l j'
+            'm l n'
+            'o l p'
+            'q r p';
+
+}
+.navbar {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+}
+
+.navbar .menu {
+  font-size: 28px;
+  cursor: pointer;
+  color: #555;
+}
+
+.header {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.header h1 {
+  font-size: 40px;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+
+.header p {
+  color: #666;
+  margin: 10px 0 20px;
+}
+
+.header button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #555;
+  color: white;
+  cursor: pointer;
+}
+
+.header button:hover {
+  background-color: #333;
+}
+
+img{
+    width: 100%;
+}
+
+
+
+
+.item1{
+    background-color: antiquewhite;
+    grid-area:a;
+
+}
+.item2{
+        background-color: rgb(0, 0, 0);
+        grid-area:b;
+
+}
+.item3{
+        background-color: rgb(250, 215, 215);
+        grid-area:c;
+
+    
+}
+.item4{
+        background-color: rgb(231, 250, 215);
+        grid-area:d;
+
+    
+}
+.item5{
+        background-color: rgb(83, 72, 59);
+        grid-area:e;
+
+    
+}
+.item6{
+        background-color: rgb(230, 141, 25);
+        grid-area:f;
+
+    
+}
+.item7{
+        background-color: rgb(215, 241, 250);
+        grid-area:g;
+
+    
+}
+.item8{
+        background-color: rgb(244, 143, 11);
+        grid-area:h;
+
+    
+}
+.item9{
+        background-color: rgba(215, 250, 234, 0.381);
+        grid-area:i;
+
+    
+}
+.item10{
+        background-color: rgb(239, 250, 215);
+        grid-area:j;
+
+    
+}
+.item11{
+        background-color: rgb(248, 215, 250);
+        grid-area:k;
+
+    
+}
+.item12{
+        background-color: rgb(250, 158, 38);
+        grid-area:l;
+
+    
+}
+.item13{
+        background-color: rgb(216, 141, 42);
+        grid-area:m;
+
+    
+}
+.item14{
+        background-color: rgb(27, 167, 14);
+        grid-area:n;
+
+    
+}
+.item15{
+        background-color: rgb(210, 145, 60);
+        grid-area:o;
+
+    
+}
+.item16{
+    background-color: rgb(215, 250, 238);
+    grid-area:p;
+
+}
+.item17{
+        background-color: rgb(218, 215, 250);
+        grid-area:q;
+
+    
+}
+.item18{
+        background-color: rgb(109, 67, 11);
+        grid-area:r;
+
+    
+}
+div>img{
+    object-fit: cover;
+    height: 100%;
+}
+.footer {
+  background-color: #f9f9f9;
+  text-align: center;
+  padding: 30px 10px;
+  margin-top: 30px;
+  font-size: 16px;
+  color: #555;
+}
+
+.footer .social-icons {
+  margin-bottom: 10px;
+}
+
+.footer .social-icons a {
+  text-decoration: none;
+  font-size: 24px;
+  margin: 0 8px;
+  color: #555;
+  transition: color 0.3s;
+}
+
+.footer .social-icons a:hover {
+  color: #000;
+}
+
+.footer a {
+  text-decoration: none;
+  color: inherit;
+}
